@@ -13,8 +13,6 @@
 		844160E42186DB8E001CB3C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844160E32186DB8E001CB3C8 /* Assets.xcassets */; };
 		844160E72186DB8E001CB3C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844160E52186DB8E001CB3C8 /* LaunchScreen.storyboard */; };
 		844160EA2186DB8E001CB3C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 844160E92186DB8E001CB3C8 /* main.m */; };
-		844160F22186E1C8001CB3C8 /* TouchableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 844160F12186E1C8001CB3C8 /* TouchableTableView.m */; };
-		844160F521870FA3001CB3C8 /* TouchableScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 844160F421870FA3001CB3C8 /* TouchableScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +26,6 @@
 		844160E62186DB8E001CB3C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		844160E82186DB8E001CB3C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		844160E92186DB8E001CB3C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		844160F02186E1C8001CB3C8 /* TouchableTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchableTableView.h; sourceTree = "<group>"; };
-		844160F12186E1C8001CB3C8 /* TouchableTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchableTableView.m; sourceTree = "<group>"; };
-		844160F321870FA3001CB3C8 /* TouchableScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchableScrollView.h; sourceTree = "<group>"; };
-		844160F421870FA3001CB3C8 /* TouchableScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchableScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +62,6 @@
 				844160DB2186DB81001CB3C8 /* AppDelegate.m */,
 				844160DD2186DB81001CB3C8 /* ViewController.h */,
 				844160DE2186DB81001CB3C8 /* ViewController.m */,
-				844160F02186E1C8001CB3C8 /* TouchableTableView.h */,
-				844160F12186E1C8001CB3C8 /* TouchableTableView.m */,
-				844160F321870FA3001CB3C8 /* TouchableScrollView.h */,
-				844160F421870FA3001CB3C8 /* TouchableScrollView.m */,
 				844160E02186DB81001CB3C8 /* Main.storyboard */,
 				844160E32186DB8E001CB3C8 /* Assets.xcassets */,
 				844160E52186DB8E001CB3C8 /* LaunchScreen.storyboard */,
@@ -151,9 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				844160F521870FA3001CB3C8 /* TouchableScrollView.m in Sources */,
 				844160DF2186DB81001CB3C8 /* ViewController.m in Sources */,
-				844160F22186E1C8001CB3C8 /* TouchableTableView.m in Sources */,
 				844160EA2186DB8E001CB3C8 /* main.m in Sources */,
 				844160DC2186DB81001CB3C8 /* AppDelegate.m in Sources */,
 			);
